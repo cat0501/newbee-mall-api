@@ -1,8 +1,16 @@
-## 后端项目搭建
+## 1 后端项目搭建
 
 ### 创建 maven 项目、添加依赖
 
 ```xml
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.6.4</version>
+    <relativePath/> <!-- lookup parent from repository -->
+</parent>
+
+
 ```
 
 ### 创建启动类、包
@@ -26,7 +34,7 @@ spring.datasource.password=123456
 
 
 
-## 前端项目搭建
+## 2 前端项目搭建
 
 - 地址
 
