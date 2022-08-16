@@ -28,9 +28,15 @@ spring.datasource.password=123456
 
 ## 前端项目搭建
 
+- 地址
 
+- Vue 项目启动
 
+```bash
+npm install
 
+npm run serve
+```
 
 
 
