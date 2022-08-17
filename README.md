@@ -13,11 +13,22 @@
 
 ```
 
-### 创建启动类、包
+### 创建启动类 Bootstrap、包
+
+```
+----controller
+----service
+----dao
+----common
+----config
+----util
+```
+
+
 
 ### 初始化数据库
 
-- 执行脚本`newbee_mall_db_v2_schema.sql`
+- 执行脚本 `newbee_mall_db_v2_schema.sql`
 
 ### 初始化配置文件
 
@@ -30,13 +41,17 @@ spring.datasource.username=root
 spring.datasource.password=123456
 ```
 
+### 配置Swagger
+
+
+
 
 
 
 
 ## 2 前端项目搭建
 
-- 地址
+- 地址：https://github.com/cat0501/newbee-mall-api/tree/master/newbee-mall-vue3-app-main
 
 - Vue 项目启动
 
