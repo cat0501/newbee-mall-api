@@ -1,8 +1,7 @@
 package com.newbee.mall.controller.admin;
 
-import com.newbee.mall.util.Result;
+import com.newbee.mall.util.R;
 import io.swagger.annotations.Api;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminCarouselAPI {
 
     @GetMapping("/")
-    public Result list(){
+    public R list(){
         log.info("日志信息");
         return null;
     }

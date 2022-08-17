@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author Lemonade
  * @updateTime 2022/8/16 11:35 PM
  */
-public class Result<T> implements Serializable {
+public class R<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private int code;
@@ -15,10 +15,10 @@ public class Result<T> implements Serializable {
     private T data;
 
     // 构造————————————————————————————————————————————————————————————
-    public Result() {
+    public R() {
     }
 
-    public Result(int code, String message) {
+    public R(int code, String message) {
         this.code = code;
         this.message = message;
     }
